@@ -1,3 +1,47 @@
 body{
-  color: #555;
+  color: #555;/*Color de la fuente*/
+  margin: 0;
+}
+
+#header{
+  background-color:#1abc9c;
+  height: 150px;
+  line-height: 150px;/*se alinea en el centro de la altura del encabezado*/
+}
+
+#header a{
+  color: white;
+  text-decoration: none;/*quita el subrayado del link*/
+
+  text-transform: uppercase;/*transforma en Mayusculas*/
+  letter-spacing: 0.1em; /*separa las letras*/
+}
+
+#header a:hover {/*el hipervinculo cambia de color al pasar el mouse*/
+  color: #222;
+}
+
+#header-title{
+  display: block;/*este bloque se desplaza a la inquierda*/
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;/*efecto de negrita*/
+}
+
+#header-nav{
+  display: block;/*este bloque se desplaza a la derecha*/
+  float: right;
+  margin-top:0;/*para quitar el espacio del margin superior*/
+
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;/*para separlas*/
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;/*alinea horizontalmente*/
 }
