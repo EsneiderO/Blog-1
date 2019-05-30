@@ -45,3 +45,32 @@ body{
   max-width: 1000px;
   margin: 0 auto;/*alinea horizontalmente*/
 }
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;/*permite que los elementos de bloque mantengan sus anchos y alturas, pero los alinean en una fila.*/
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1 em;
+}
+#footer p {
+  color: white;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover { /*cambia de color cuando pasa el mouse*/
+  color: #F6A623;
+}
