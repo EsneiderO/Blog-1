@@ -1,0 +1,129 @@
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body{
+  color: #555;/*Color de la fuente*/
+  margin: 0 auto;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+  background-color:#1abc9c;
+  height: 150px;
+  line-height: 150px;/*se alinea en el centro de la altura del encabezado*/
+}
+
+#header a{
+  color: white;
+  text-decoration: none;/*quita el subrayado del link*/
+
+  text-transform: uppercase;/*transforma en Mayusculas*/
+  letter-spacing: 0.1em; /*separa las letras*/
+}
+
+#header a:hover {/*el hipervinculo cambia de color al pasar el mouse*/
+  color: #222;
+}
+
+#header-title{
+  display: block;/*este bloque se desplaza a la inquierda*/
+  float: left;
+
+  font-size: 20px;
+  font-weight: bold;/*efecto de negrita*/
+}
+
+#header-nav{
+  display: block;/*este bloque se desplaza a la derecha*/
+  float: right;
+  margin-top:0;/*para quitar el espacio del margin superior*/
+
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;/*para separlas*/
+}
+
+.about {
+  text-align: center; /*Alinear contenido*/
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;/*alinea horizontalmente*/
+}
+
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#footer {
+  background-color: #2f2f2f;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;/*permite que los elementos de bloque mantengan sus anchos y alturas, pero los alinean en una fila.*/
+  vertical-align: top;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1 em;
+}
+#footer p {
+  color: white;
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover { /*cambia de color cuando pasa el mouse*/
+  color: #F6A623;
+}
+
+.post,
+.about {
+  max-width: 800px;
+  margin: 0 auto;/*centra la caja*/
+  padding: 60px 0; /*espacio entre el header y entre los post*/
+}
+
+.post-author img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.post-author img,
+.about-author img{
+  border-radius: 50%;/*Volver las imagenes circulares*/
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #D2D2D2;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing:
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
