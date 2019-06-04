@@ -3,7 +3,7 @@
 
 body{
   color: #555;/*Color de la fuente*/
-  margin: 0;
+  margin: 0 auto;
 
   font-family: 'Montserrat', sans-serif;
 }
@@ -46,9 +46,17 @@ body{
   padding-left: 20px;/*para separlas*/
 }
 
+.about {
+  text-align: center; /*Alinear contenido*/
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;/*alinea horizontalmente*/
+}
+
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
 #footer {
@@ -80,9 +88,10 @@ a:hover { /*cambia de color cuando pasa el mouse*/
   color: #F6A623;
 }
 
-.post {
+.post,
+.about {
   max-width: 800px;
-  margin: 0;
+  margin: 0 auto;/*centra la caja*/
   padding: 60px 0; /*espacio entre el header y entre los post*/
 }
 
@@ -90,6 +99,11 @@ a:hover { /*cambia de color cuando pasa el mouse*/
   width: 50px;
   height: 50px;
   vertical-align: middle;
+}
+
+.post-author img,
+.about-author img{
+  border-radius: 50%;/*Volver las imagenes circulares*/
 }
 
 .post-author span {
